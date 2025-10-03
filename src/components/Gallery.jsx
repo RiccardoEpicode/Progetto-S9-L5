@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Slider from "react-slick";
 
-class Gallery extends Component {
+export default class Gallery extends Component {
   state = {
     movies: [],
     isLoading: true,
@@ -80,5 +80,3 @@ class Gallery extends Component {
     );
   }
 }
-
-export default Gallery;
