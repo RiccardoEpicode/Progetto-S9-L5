@@ -20,7 +20,7 @@ export default function NavbarComponent() {
   return (
     <Navbar expand="lg" className="mx-3" variant="dark">
       <Container fluid>
-        <Navbar.Brand href="#" className="py-2">
+        <Navbar.Brand href="#" className="py-4">
           <img
             src={logo}
             alt="Netflix Logo"
