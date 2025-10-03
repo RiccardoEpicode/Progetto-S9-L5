@@ -72,11 +72,15 @@ export default function NavbarComponent() {
               }
               id="navbarScrollingDropdown"
               align="end"
+              menuVariant="dark"
             >
-              {" "}
-              <NavDropdown.Item href="#action3">Profile</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action4">Settings</NavDropdown.Item>
+              <NavDropdown.Item href="#ProfilePage" className="text-white">
+                Profile
+              </NavDropdown.Item>
+              <NavDropdown.Divider className="border-light" />
+              <NavDropdown.Item href="#SettingsPage" className="text-white">
+                Settings
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
