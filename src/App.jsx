@@ -14,7 +14,7 @@ function App() {
     <div>
       <Navbar />
       <TvShowsBar />
-      <Gallery query="Harry Potter" title="Trending Now" />
+      <Gallery query="Terminator" title="Trending Now" />
       <Gallery query="Lord of the Rings" title="Watch It Again" />
       <Gallery query="Star Wars" title="New Release" />
       <Footer />
